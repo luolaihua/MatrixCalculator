@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="#6FE2EDF5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="秩"
+            android:textSize="16dp" />
+        <TextView
+            android:textSize="16dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:id="@+id/rank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="#6FE2EDF5"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="行列式" />
+        <TextView
+            android:textSize="16dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:id="@+id/det"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:background="#6FE2EDF5"
+            android:layout_width="wrap_content"
+            android:text="转置"
+            android:textSize="20dp"
+            android:ems="1"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/transpose"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:text="转置"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:background="#6FE2EDF5"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="特征值"
+            android:ems="1"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/eigD"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:text="特征值"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:background="#6FE2EDF5"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="特征向量"
+            android:ems="1"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/eigV"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:text="特征向量"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:background="#6FE2EDF5"
+            android:layout_width="wrap_content"
+            android:text="逆矩阵"
+            android:ems="1"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/inverse"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="逆矩阵"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout> 

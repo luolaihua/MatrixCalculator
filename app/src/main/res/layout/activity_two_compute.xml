@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:background="#6FE2EDF5"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="A"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+
+            <EditText
+                android:gravity="center"
+                android:id="@+id/two_edtInput_0"
+                android:text="0"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:inputType="numberDecimal" />
+            <EditText
+                android:gravity="center"
+                android:id="@+id/two_edtInput_2"
+                android:text="0"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+
+            <EditText
+                android:gravity="center"
+                android:id="@+id/two_edtInput_1"
+                android:text="0"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:inputType="numberDecimal" />
+            <EditText
+                android:gravity="center"
+                android:id="@+id/two_edtInput_3"
+                android:text="0"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:background="#6FE2EDF5"
+            android:id="@+id/two_tv_add"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:background="#6FE2EDF5"
+            android:id="@+id/two_tv_sub"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="#6FE2EDF5"
+            android:id="@+id/two_tv_mult"
+            android:gravity="center"
+            android:text="×"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/two_sovle"
+                android:background="#6FE2EDF5"
+                android:text="A*X=B"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/two_sovleTran"
+                android:background="#6FE2EDF5"
+                android:text="X*A=B"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/two_analysisA"
+                android:background="#6FE2EDF5"
+                android:text="分析A"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/two_analysisB"
+                android:background="#6FE2EDF5"
+                android:text="分析B"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:background="#6FE5EFF7"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="B"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:gravity="center"
+                android:id="@+id/two_edtInput2_0"
+                android:text="0"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:inputType="numberDecimal" />
+            <EditText
+                android:gravity="center"
+                android:id="@+id/two_edtInput2_2"
+                android:text="0"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <EditText
+                android:gravity="center"
+                android:id="@+id/two_edtInput2_1"
+                android:text="0"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:inputType="numberDecimal" />
+            <EditText
+                android:gravity="center"
+                android:id="@+id/two_edtInput2_3"
+                android:text="0"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:background="#6FE2EDF5"
+        android:id="@+id/two_tv_equal"
+        android:gravity="center"
+        android:text="="
+        android:textSize="36sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:background="#6FE9F0F7"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="X"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/two_tv_result"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:text="0  0\n0  0"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

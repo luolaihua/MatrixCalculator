@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:background="#6FE2EDF5"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="A"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent">
+            <Spinner
+                android:id="@+id/row_a"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+            </Spinner>
+            <Spinner
+                android:id="@+id/column_a"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+            </Spinner>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_a"
+            android:hint="输入矩阵"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="match_parent" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_tv_add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#6FE2EDF5"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="30sp" />
+
+        <TextView
+            android:background="#6FE2EDF5"
+            android:id="@+id/main_tv_sub"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="#6FE2EDF5"
+            android:id="@+id/main_tv_mult"
+            android:gravity="center"
+            android:text="×"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/main_sovle"
+                android:background="#6FE2EDF5"
+                android:text="A*X=B"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/main_sovleTran"
+                android:background="#6FE2EDF5"
+                android:text="X*A=B"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:background="#6FE2EDF5"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="B"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent">
+            <Spinner
+                android:id="@+id/row_b"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+            </Spinner>
+            <Spinner
+                android:id="@+id/column_b"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+            </Spinner>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_b"
+            android:hint="输入矩阵"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="match_parent" />
+
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:background="#6FE2EDF5"
+        android:id="@+id/main_tv_equal"
+        android:gravity="center"
+        android:text="="
+        android:textSize="36sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:background="#6FE9F0F7"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="X"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/main_tv_result"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:gravity="center"
+            android:text="0  0\n0  0"
+             />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
