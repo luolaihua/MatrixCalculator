@@ -16,8 +16,11 @@
 ---可以设置触摸反馈 
 ---可以选择矩阵的输入模式
 软件平台：手机 语言环境： 中文软件名称：矩阵计算器软件分类： 应用>系统工具
-https://github.com/luolaihua/MatrixCalculator/blob/master/introduction/1.jpg
-https://github.com/luolaihua/MatrixCalculator/blob/master/introduction/2.jpg
-https://github.com/luolaihua/MatrixCalculator/blob/master/introduction/3.jpg
-https://github.com/luolaihua/MatrixCalculator/blob/master/introduction/4.jpg
-https://github.com/luolaihua/MatrixCalculator/blob/master/introduction/5.jpg
+![](https://github.com/luolaihua/MatrixCalculator/blob/master/introduction/1.jpg)
+![](https://github.com/luolaihua/MatrixCalculator/blob/master/introduction/2.jpg)
+![](https://github.com/luolaihua/MatrixCalculator/blob/master/introduction/3.jpg)
+![](https://github.com/luolaihua/MatrixCalculator/blob/master/introduction/4.jpg)
+![](https://github.com/luolaihua/MatrixCalculator/blob/master/introduction/5.jpg)
+
+
+
